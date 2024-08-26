@@ -46,26 +46,17 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p>
-          I’m a Software Developer with a strong focus on backend and API
-          development, particularly using Java and Spring Boot. As a Developer
-          Trainee at OP, I’ve honed my skills in backend technologies while
-          maintaining a solid understanding of frontend development, aiming to
-          grow into full-stack expertise.
-        </p>
-
-        <p>
-          Beyond coding, I’m experienced in the full software delivery
-          lifecycle, including deployment and DevOps practices like Kubernetes
-          and Docker. My background in sales and competitive ice hockey has
-          equipped me with strong teamwork, communication, and
-          discipline—qualities I bring to every project.
-        </p>
-
-        <p>
-          I’m passionate about technology, quick to learn, and eager to
-          contribute to innovative teams and projects where I can continue to
-          grow and make an impact.
+        <p className={styles.description}>
+          <p>Hello and welcome to my website!</p>
+          <br />
+          I’m a recent Bachelor of Engineering graduate and a Software Developer
+          with a strong focus on backend and API development. I’m most familiar
+          with technologies like Java and Spring Boot, with a solid
+          understanding of frontend technologies as well. Additionally, I’m
+          well-versed in DevOps practices, including Kubernetes and Docker, and
+          I’m knowledgeable about modern development methodologies and tools.
+          I’m eager to apply my skills and continue growing in innovative
+          development environments.
         </p>
 
         <a href={CV} download>
