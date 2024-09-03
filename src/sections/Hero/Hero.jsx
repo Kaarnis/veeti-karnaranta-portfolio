@@ -55,7 +55,7 @@ function Hero() {
           understanding of frontend technologies as well. Additionally, I’m
           well-versed in DevOps practices, including Kubernetes and Docker, and
           I’m knowledgeable about modern development methodologies and tools.
-          I’m eager to apply my skills and continue growing in innovative
+          I’m ready to apply my skills and continue growing in innovative
           development environments.
         </p>
 
