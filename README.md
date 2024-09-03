@@ -47,4 +47,4 @@ This website is deployed using [Netlify](https://www.netlify.com/). Any changes 
 
 ## Contact
 
-If you have any questions or just want to connect, feel free to reach out via the [contact form](https://main--veeti-karnaranta.netlify.app/#contact) on my website or connect with me on [LinkedIn](https://www.linkedin.com/in/veeti-karnaranta/).
+If you have any questions or just want to connect, feel free to reach out via the [contact form](https://main--veeti-karnaranta.netlify.app/#contact) on my website or connect with me on [LinkedIn](https://www.linkedin.com/in/veekar/).
