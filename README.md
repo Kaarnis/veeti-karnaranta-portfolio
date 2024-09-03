@@ -16,7 +16,6 @@ You can access the live version of my portfolio here: [https://main--veeti-karna
 ## Technologies Used
 
 - **Frontend**: React, CSS
-- **Backend**: Node.js, Express (for some project demos)
 - **Deployment**: Deployed via Netlify
 - **Additional Tools**: EmailJS for contact form functionality
 
