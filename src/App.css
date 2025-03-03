@@ -1,11 +1,11 @@
 :root {
     --background-color: #fff;
-    --btn-color: #0987f2;
+    --btn-color: #2C3E50;
     --btn-text-color: #fff;
     --project-card-bg: #ffffff00;
-    --text-color: #222;
-    --form-text-color: #555;
-    --footer-text-color: #888;
+    --text-color: #2C3E50;
+    --form-text-color: #34495E;
+    --footer-text-color: #7F8C8D;
   }
   
   [data-theme='dark'] {

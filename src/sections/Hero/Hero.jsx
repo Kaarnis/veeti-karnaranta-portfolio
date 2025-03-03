@@ -6,7 +6,6 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/CV-esimerkki.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -17,7 +16,7 @@ function Hero() {
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
-    <section id="hero" className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
           src={heroImg}
@@ -47,21 +46,13 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          <p>Hello and welcome to my website!</p>
-          <br />
-          I’m a recent Bachelor of Engineering graduate and a Software Developer
-          with a strong focus on backend and API development. I’m most familiar
-          with technologies like Java and Spring Boot, with a solid
-          understanding of frontend technologies as well. Additionally, I’m
-          well-versed in DevOps practices, including Kubernetes and Docker, and
-          I’m knowledgeable about modern development methodologies and tools.
-          I’m ready to apply my skills and continue growing in innovative
-          development environments.
-        </p>
+        I'm a Software Developer and Agile Master with a Bachelor's degree in Engineering. I work mostly with backend development using Java and Spring Boot, designing APIs, and building scalable systems. I also have a solid understanding of frontend technologies, giving me a full-picture view of the software development process.
 
-        <a href={CV} download>
-          <button className="hover">Resume</button>
-        </a>
+I have experience with DevOps tools, CI/CD pipelines, and production monitoring, ensuring smooth deployments and reliable performance in live environments. I care about clean code, good architecture, and agile ways of working that help teams deliver efficiently. Always looking for ways to improve processes and make development smoother.
+<br />
+<br />
+Also, a dad of one, balancing coding and parenting — both full of surprises
+        </p>
       </div>
     </section>
   );

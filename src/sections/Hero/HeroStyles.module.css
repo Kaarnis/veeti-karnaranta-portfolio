@@ -1,12 +1,11 @@
-
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 100dvh;
   min-height: 500px;
+  padding: 40px 0;
 
   .hero {
     max-width: 200px;
@@ -70,6 +69,21 @@
 
 .description {
   max-width: 80ch;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: var(--text-color);
+  opacity: 0.9;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.description p:first-child {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--btn-color);
+  text-align: center;
 }
 
 .info {
@@ -83,19 +97,42 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
+    min-height: 600px;
+    padding: 60px 0;
 
     .hero {
       max-width: 350px;
       width: 350px;
     }
   }
+
+  .description {
+    font-size: 1.1rem;
+    padding: 0 40px;
+  }
+
+  .description p:first-child {
+    font-size: 1.4rem;
+  }
 }
 
 @media (width >= 1400px) {
   .container {
+    min-height: 700px;
+    padding: 80px 0;
+
     .hero {
       max-width: 400px;
       width: 400px;
     }
+  }
+
+  .description {
+    font-size: 1.2rem;
+    padding: 0 60px;
+  }
+
+  .description p:first-child {
+    font-size: 1.5rem;
   }
 }
