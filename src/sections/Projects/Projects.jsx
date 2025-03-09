@@ -4,10 +4,22 @@ import portfoliowebsite from "../../assets/portfoliowebsite.png";
 import frevent from "../../assets/frevent.png";
 import fishingapi from "../../assets/fishingapi.png";
 import fitnesstrackerbackend from "../../assets/fitnesstrackerbackend.png";
-import ProjectCard from "../../common/ProjectCard"
+import kalastus from "../../assets/kalastus.png";
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   const projects = [
+    {
+      src: kalastus,
+      link: {
+        frontend: "https://github.com/Kaarnis/fishing_tracker_frontend",
+        backend: "https://github.com/Kaarnis/fishing_tracker_API",
+      },
+      h3: "Fishing Trip Tracker",
+      p: "Full-stack application for tracking fishing activities.",
+      techUsed:
+        "Technologies: React, TypeScript, Spring Boot, PostgreSQL, Docker, GitHub Actions, Automated CI/CD pipeline and deployments to railway",
+    },
     {
       src: climatechange,
       link: "https://github.com/TVT21SPOWebR10/React_ClimateChangeApp",
@@ -29,26 +41,14 @@ function Projects() {
       p: "Location-based event discovery and management application with real-time updates.",
       techUsed: "Technologies: React Native, Node.js, Firebase",
     },
-    {
-      src: fishingapi,
-      link: "https://github.com/Kaarnis/FishingAPI",
-      h3: "Fishing Analytics API",
-      p: "RESTful service for tracking fishing activities with comprehensive testing.",
-      techUsed: "Technologies: Java, Spring Boot, Docker",
-    },
-    {
-      src: fitnesstrackerbackend,
-      link: "https://github.com/Kaarnis/FitnessTrackerAPI",
-      h3: "Fitness Tracker API",
-      p: "Secure backend service for workout tracking and progress analytics.",
-      techUsed: "Technologies: Java, Spring Boot, MySQL",
-    },
   ];
 
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Some of my projects</h1>
-      <p className={styles.subtitle}>Click on the links to view the code on GitHub.</p>
+      <p className={styles.subtitle}>
+        Click on the projects to view the code on GitHub.
+      </p>
       <div className={styles.projectsContainer}>
         {projects.map((project, index) => (
           <ProjectCard
